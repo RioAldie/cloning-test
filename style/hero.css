@@ -1,0 +1,96 @@
+.container{
+    width: 80%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.container .box-hero{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+.box-hero .hero-title{
+    max-width: 501px;
+    min-height: 180px;
+    color: #0E144A;
+    font-family: var(--primary);
+    font-size: 48px;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: 400;
+}
+.box-hero .second-text{
+    width: 501px;
+    height: 102px;
+    color: #6F6F6F;
+    font-family: var(--secondary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+}
+.box-hero .box-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    width: 366px;
+    height: 50px;
+}
+.box-hero .box-btn .btn-more{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 50px;
+    gap: 10px;
+    width: 177px;
+    height: 50px;
+    background: #FE5E44;
+    box-shadow: 0px 20px 30px rgba(255, 86, 58, 0.15);
+    border-radius: 5px;
+    border: none;
+    font-family: var(--secondary);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.box-hero .btn-demo{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 50px;
+    gap: 10px;
+    width: 174px;
+    height: 50px;
+    background: rgba(254, 94, 68, 0.1);
+    border: 1px solid rgba(254, 94, 68, 0.2);
+    border-radius: 5px;
+    border: none;
+    font-family: var(--secondary);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FE5E44;
+}
+.box-hero .slide-card{
+    width: max-content;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+    margin-top: 60px;
+}
+.box-hero .slide-card img{
+    padding: 0;
+    margin: 0;
+    margin-left: -60px;
+}

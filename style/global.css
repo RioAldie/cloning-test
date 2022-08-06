@@ -1,3 +1,8 @@
+:root{
+    --primary: 'Patua One', cursive;
+    --secondary: 'Source Sans Pro', sans-serif;
+}
+
 body{
     padding: 0;
     margin: 0;
