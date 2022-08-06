@@ -1,7 +1,7 @@
 .header{
     background: linear-gradient(180deg, rgba(255, 244, 242, 0.4) 0%, #FFF0EE 100%);
     width: 100%;
-    minHeight: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
