@@ -5,6 +5,7 @@
     flex-direction: row;
     margin-bottom: 100px;
     margin-top: 70px;
+    justify-content: space-between;
 }
 .container .box-hero{
     width: 50%;
@@ -12,7 +13,10 @@
     flex-direction: column;
     height: max-content;
 }
-.box-hero .hero-title{
+.container .thumbnail{
+    margin-top: 40px;
+}
+.hero-title{
     max-width: 501px;
     min-height: 180px;
     color: #0E144A;
@@ -22,7 +26,7 @@
     font-style: normal;
     font-weight: 400;
 }
-.box-hero .second-text{
+.second-text{
     width: 501px;
     height: 102px;
     color: #6F6F6F;
