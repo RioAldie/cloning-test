@@ -53,4 +53,10 @@
     border: none;
     font-size: 16px;
     cursor: pointer;
+    transition: 0.5s;
+
+}
+.btn-download:hover{
+    background: #c73822;
+    transform: scale(1.05);
 }
