@@ -14,6 +14,7 @@ section.about{
     gap: 42px;
     width: 325px;
     height: 52px;
+    margin-top: 60px;
 }
 .box-info .info{
     display: flex;
@@ -80,7 +81,11 @@ section.about{
     border-radius: 6px;
     width: 319.5px;
     height: 220px;
-    
+    cursor: pointer;
+    transition: 0.5s;
+}
+.all-abouts .box .card-about:hover{
+    transform: scale(1.05);
 }
 .all-abouts .box .card-about .title{
     display: flex;
@@ -88,7 +93,7 @@ section.about{
     align-items: center;
     padding: 0px;
     gap: 20px;
-    width: 180px;
+    width: max-content;
     height: 50px;
     font-family: var(--secondary);
     font-style: normal;
