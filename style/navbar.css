@@ -41,7 +41,11 @@
     cursor: pointer;
     font-family: var(--secondary);
 }
-.navbar ul li:hover{
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar ul li a:hover{
     color: #FE5E44;
 }
 .btn-download{

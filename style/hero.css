@@ -17,8 +17,7 @@
     margin-top: 40px;
 }
 .hero-title{
-    max-width: 501px;
-    min-height: 180px;
+    width: 501px;
     color: #0E144A;
     font-family: var(--primary);
     font-size: 48px;
@@ -28,7 +27,6 @@
 }
 .second-text{
     width: 501px;
-    height: 102px;
     color: #6F6F6F;
     font-family: var(--secondary);
     font-style: normal;
