@@ -1,0 +1,67 @@
+footer {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -20px;
+}
+footer .container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+}
+footer .container .second-text {
+  width: 70%;
+  margin-top: -30px;
+}
+.app-store {
+  margin-top: 40px;
+}
+.footer-desc {
+  margin-top: 100px;
+  margin-bottom: -150px;
+}
+.real-footer {
+  margin-top: 150px;
+  display: flex;
+  text-align: left;
+  margin-left: -50px;
+  margin-bottom: -50px;
+}
+.real-footer .about-app {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  flex: 2.5;
+}
+.sitemap,
+.partner,
+.connection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-title {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: var(--primary);
+}
+.sitemap a,
+.partner a {
+  text-decoration: none;
+  color: #6f6f6f;
+  font-size: 18px;
+}
+.sitemap a:hover,
+.partner a:hover {
+  color: #fe5e44;
+}
+
+.sitemap,
+.partner,
+.connection {
+  flex: 1;
+}

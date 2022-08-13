@@ -1,113 +1,113 @@
-section.about{
-    width: 100%;
-    background: #fff;
-    height: max-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+section.about {
+  width: 100%;
+  background: #fff;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.box-info{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 42px;
-    width: 325px;
-    height: 52px;
-    margin-top: 60px;
+.box-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 42px;
+  width: 325px;
+  height: 52px;
+  margin-top: 60px;
 }
-.box-info .info{
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    width: 128px;
-    height: 52px;
-    margin: 0;
+.box-info .info {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  width: 128px;
+  height: 52px;
+  margin: 0;
 }
-.box-info .info span{
-    width: 128px;
-    height: 15px;
-    left: 0px;
-    top: 0px;
-    letter-spacing: 0.1em;
-    font-family: var(--secondary);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: rgba(12, 27, 77, 0.6);
-    margin: 0;
-    text-transform: uppercase;
+.box-info .info span {
+  width: 128px;
+  height: 15px;
+  left: 0px;
+  top: 0px;
+  letter-spacing: 0.1em;
+  font-family: var(--secondary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(12, 27, 77, 0.6);
+  margin: 0;
+  text-transform: uppercase;
 }
-.box-info .info h6{
-    width: 113px;
-    height: 29px;
-    left: 0px;
-    top: 23px;
-    color: #0C1B4D;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    font-family: var(--secondary);
-    margin: 0;
+.box-info .info h6 {
+  width: 113px;
+  height: 29px;
+  left: 0px;
+  top: 23px;
+  color: #0c1b4d;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  font-family: var(--secondary);
+  margin: 0;
 }
-.all-abouts{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 30px;
-    width: 669px;
-    height: max-content;
+.all-abouts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 669px;
+  height: max-content;
 }
-.all-abouts .box{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 30px;
-    width: 669px;
-    height: max-content;
+.all-abouts .box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 669px;
+  height: max-content;
 }
-.all-abouts .box .card-about{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 40px;
-    gap: 25px;
-    background: rgba(254, 94, 68, 0.05);
-    border-radius: 6px;
-    width: 319.5px;
-    height: 220px;
-    cursor: pointer;
-    transition: 0.5s;
+.all-abouts .box .card-about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 25px;
+  background: rgba(254, 94, 68, 0.05);
+  border-radius: 6px;
+  width: 319.5px;
+  height: 220px;
+  cursor: pointer;
+  transition: 0.5s;
 }
-.all-abouts .box .card-about:hover{
-    transform: scale(1.05);
+.all-abouts .box .card-about:hover {
+  transform: scale(1.05);
 }
-.all-abouts .box .card-about .title{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 20px;
-    width: max-content;
-    height: 50px;
-    font-family: var(--secondary);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
+.all-abouts .box .card-about .title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: max-content;
+  height: 50px;
+  font-family: var(--secondary);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
 }
-.all-abouts .box .card-about p{
-    width: 239.5px;
-    height: 84px;
-    color: #000000;
-    font-family: var(--secondary);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
+.all-abouts .box .card-about p {
+  width: 239.5px;
+  height: 84px;
+  color: #000000;
+  font-family: var(--secondary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
 }

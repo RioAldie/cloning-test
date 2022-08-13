@@ -1,14 +1,14 @@
-:root{
-    --primary: 'Patua One', cursive;
-    --secondary: 'Source Sans Pro', sans-serif;
+:root {
+  --primary: 'Patua One', cursive;
+  --secondary: 'Source Sans Pro', sans-serif;
 }
 
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
-body{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
+body {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
 }
