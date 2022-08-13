@@ -30,8 +30,6 @@ section.feature {
   margin-bottom: 20px;
   font-family: var(--secondary);
 }
-.card-box p {
-}
 .card-title {
   font-weight: 600;
   font-size: 18px;
